@@ -1,0 +1,33 @@
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    &_face {
+        background-image: url("../media/section/face.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        &_face {
+            background-image: url("../media/section/face-1024.jpg");
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        &_face {
+            background-image: url("../media/section/face-768.jpg");
+        }
+    }
+}
