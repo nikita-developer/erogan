@@ -4,20 +4,26 @@
     padding-bottom: 120px;
 
     &_face {
+        padding-top: 70px;
+        padding-bottom: 390px;
         background-image: url("../media/section/face.jpg");
         background-position: center;
         background-size: cover;
     }
 }
 
-@media (max-width: 1024px) {
+.section__title {
+    font-family: "Akrobat", sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+}
+
+@media (max-width: 1280px) {
     .section {
         padding-top: 60px;
-        padding-bottom: 60px;
-
-        &_face {
-            background-image: url("../media/section/face-1024.jpg");
-        }
+        padding-bottom: 230px;
     }
 }
 
@@ -25,9 +31,5 @@
     .section {
         padding-top: 40px;
         padding-bottom: 40px;
-
-        &_face {
-            background-image: url("../media/section/face-768.jpg");
-        }
     }
 }
