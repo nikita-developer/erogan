@@ -1,0 +1,64 @@
+
+.symptoms__title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.symptoms__subtitle {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+
+    & span {
+        display: block;
+    }
+}
+
+.symptoms__acute {
+    position: relative;
+    display: flex;
+    padding: 80px;
+    background-image: url("../media/symptoms/acuteBg.jpg");
+    background-size: cover;
+}
+
+.symptoms__media {
+    position: absolute;
+    bottom: 0;
+}
+
+.symptoms__acute-body {
+    margin-left: auto;
+}
+
+.symptoms__acute-title {
+    margin-bottom: 30px;
+    font-family: "Akrobat", sans-serif;
+    font-size: 62px;
+    color: #fff;
+}
+
+.symptoms__list {
+    font-size: 18px;
+    color: #fff;
+}
+
+.symptoms__item {
+    position: relative;
+    padding-left: 40px;
+
+    &::before {
+        position: absolute;
+        top: -6px;
+        left: 0;
+        width: 27px;
+        height: 27px;
+        content: '';
+        background-image: url("../media/symptoms/icon-white.png");
+    }
+
+    & + & {
+        margin-top: 20px;
+    }
+}
