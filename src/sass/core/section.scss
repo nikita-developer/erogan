@@ -52,6 +52,12 @@
     }
 
     .section__title {
-        font-size: 32px;
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section__title {
+        font-size: 30px;
     }
 }
