@@ -9,6 +9,14 @@
 }
 
 @font-face {
+  font-family: 'Akrobat';
+  src: url('../fonts/Akrobat/Akrobat-Regular.woff2') format('woff2'),
+    url('../fonts/Akrobat/Akrobat-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Codec-Cold';
   src: url('../fonts/Codec-Cold/CodecCold-Bold.woff2') format('woff2'),
     url('../fonts/Codec-Cold/CodecCold-Bold.woff') format('woff');
