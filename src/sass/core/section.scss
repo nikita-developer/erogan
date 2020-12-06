@@ -29,9 +29,17 @@
     }
 
     &_steps {
+        padding-bottom: 60px;
         background-color: #000;
         background-image: url("../media/section/steps.jpg");
         background-position: center;
+    }
+
+    &_professional {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        overflow: hidden;
+        background-color: #000;
     }
 }
 
