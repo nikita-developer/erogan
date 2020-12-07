@@ -49,6 +49,19 @@
         background-position: center;
         background-size: cover;
     }
+
+    &_commits {
+        padding-top: 0;
+        background-color: #000;
+    }
+
+    &_footer {
+        padding-top: 70px;
+        padding-bottom: 390px;
+        background-image: url("../media/section/footer.jpg");
+        background-position: center top;
+        background-size: cover;
+    }
 }
 
 .section__title {
@@ -70,6 +83,10 @@
 
         &_result {
             margin-top: -60px;
+        }
+
+        &_footer {
+            padding-bottom: 230px;
         }
     }
 

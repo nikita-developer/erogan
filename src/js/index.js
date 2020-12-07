@@ -48,22 +48,22 @@ $(document).ready(function () {
         }, 1000);
     }
 
-    // $('.js-commits__box').owlCarousel({
-    //     loop: true,
-    //     margin: 40,
-    //     autoHeight: true,
-    //     responsive: {
-    //         320: {
-    //             items: 1
-    //         },
+    $('.js-commits__box').owlCarousel({
+        loop: true,
+        margin: 40,
+        autoHeight: true,
+        responsive : {
+            320 : {
+                items: 1
+            },
 
-    //         768: {
-    //             items: 2
-    //         },
+            768 : {
+                items: 2
+            },
 
-    //         1280: {
-    //             items: 3
-    //         }
-    //     }
-    // });
+            1280 : {
+                items: 3
+            }
+        }
+    });
 });
