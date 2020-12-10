@@ -34,6 +34,10 @@
 
     &:nth-child(3) {
         background-image: url("../media/product/item-3.jpg");
+
+        & .product__item-title {
+            color: #000;
+        }
     }
 }
 
@@ -45,6 +49,7 @@
     margin-bottom: 20px;
     font-family: "Akrobat", sans-serif;
     font-size: 35px;
+    font-weight: 700;
     line-height: 1;
     color: #fff;
 }
