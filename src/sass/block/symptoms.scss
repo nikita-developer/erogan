@@ -27,8 +27,14 @@
 
 .symptoms__media {
     position: absolute;
+    top: 0;
     bottom: 0;
     left: 80px;
+    height: 100%;
+
+    & img {
+        height: 100%;
+    }
 }
 
 .symptoms__acute-body {
@@ -110,8 +116,7 @@
     }
 
     .symptoms__acute {
-        padding-right: 20px;
-        padding-left: 20px;
+        padding: 40px 20px;
         margin-top: 30px;
         background-image: url("../media/symptoms/acuteBg-1280.jpg");
     }
@@ -123,7 +128,7 @@
     .symptoms__media {
         right: 0;
         left: auto;
-        max-width: 255px;
+        max-width: 280px;
     }
 
     .symptoms__acute-title,
